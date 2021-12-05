@@ -75,9 +75,11 @@ Bot For help You Manage & Protect Your Groups.
 """
 
 HELP_STRINGS = f"""
-✨Hello There , I'm szrosebot
-An anime - Themed advanced telegram Group management
-Bot For help You Manage & Protect Your Groups.
+😗❤️Hello There , I'm Rexi Bot
+
+👉An anime -Themed advanced telegram 
+Group management Bot For help You 
+Protect Your Groups👈
 **General commands**:
  ➼ /start: Starts me! You've probably already used this.
  ➼ /help: Sends this message; I'll tell you more about myself!
@@ -89,9 +91,9 @@ Bot For help You Manage & Protect Your Groups.
 
 DONATE_STRING = """
 ➢ Heya,glad to hear you want to donate !
-➢ You can support the project @supunmabot
-➢ Supporting isnt always financial! [Youtube](https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA)
-➢ Those who cannot provide monetary support are welcome to help us develop the bot at @szteambots.
+➢ You can support the project @Abi4Tec_bot
+➢ Supporting isnt always financial! [Youtube](https://www.youtube.com/channel/UC4SWX95Gi6SEow0JCup4Whw)
+
 """
 STICKERS = "CAACAgUAAx0CS6YhoQAC02VhQUW7iB4ci3lcSXHtLVOjFzZlDQACUQMAAvPvEVY76k2QN6u20iAE"   
 
@@ -99,26 +101,26 @@ BUTTONS = (
     [
         [
             InlineKeyboardButton(
-                text="🆘 Help 🆘", callback_data = "helpmenu_"
+                text="🤠Help🤠", callback_data = "helpmenu_"
             ),
             InlineKeyboardButton(
-                text="📊 Stats 📊",
+                text="📊Stats📊",
                 callback_data="stats_callback",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🗣 Updates", url="https://t.me/szteambots"
+                text="👀Updates👀", url="https://t.me/Rexibots"
             ),
             InlineKeyboardButton(
-                text="👥 Support",
-                url="https://t.me/slbotzone",
+                text="👥Support👥",
+                url="https://t.me/Rexibots",
             ),
         ],
         [
             InlineKeyboardButton(
                 text="➕ Add Me To Your Group ➕",
-                url=f"t.me/szrosebot?startgroup=true",
+                url=f"t.me/AbRexi_bot?startgroup=true",
             )
         ],
     ]
